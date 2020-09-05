@@ -1,0 +1,54 @@
+html {
+  background: #000;
+  color: #eee;
+}
+
+a[href] {
+  color: #999;
+}
+
+a[href]:focus,
+a[href]:active {
+  color: #ccc;
+}
+
+.button,
+.button[href] {
+  background: #666;
+}
+
+.button:focus,
+.button:active,
+.button[href]:focus,
+.button[href]:active {
+  background: #888;
+}
+
+.input,
+.select,
+.textarea {
+  background: #222;
+  color: inherit;
+  border-style: inset;
+  border-width: 2px;
+}
+
+.lot\:file li,
+.lot\:page li {
+  background: #000;
+  border-color: #000;
+}
+
+.lot\:file li.is\:folder::before {
+  background: #eee;
+}
+
+.lot\:file li.is\:folder::after {
+  border-color: #eee;
+}
+
+.lot\:menu,
+.lot\:menu ul {
+  background: #000;
+  color: #eee;
+}
