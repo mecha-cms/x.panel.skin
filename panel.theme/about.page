@@ -1,12 +1,14 @@
 ---
 title: Panel Theme Example
-description: Custom theme for the panel extension.
+description: Theme starter for the panel extension.
 author: Taufik Nurrohman
 type: Markdown
-version: 1.0.0
+version: 1.0.1
 
 use:
   '.\lot\x\panel': 1
 ...
 
-Use this extension as a starting point to make your own control panel theme.
+![Panel Theme](https://user-images.githubusercontent.com/1669261/92398791-635f7000-f153-11ea-88a3-a614caa64247.png)
+
+Use this extension as a starting point to make your own control panel theme and functionalities.
