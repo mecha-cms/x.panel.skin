@@ -37,8 +37,8 @@ $menus = [
         ],
         'url' => "",
         'stack' => 20
-    ]  
+    ]
 ];
 
 // Extend to the main menu(s)
-$GLOBALS['_']['lot']['bar']['lot'][1]['lot'] = extend($GLOBALS['_']['lot']['bar']['lot'][1]['lot'] ?? [], $menus);
+$_['lot']['bar']['lot'][1]['lot'] = extend($_['lot']['bar']['lot'][1]['lot'] ?? [], $menus);

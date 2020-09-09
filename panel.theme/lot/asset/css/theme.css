@@ -16,11 +16,16 @@ a[href]:active {
   color: #777;
 }
 
+pre code {
+  background: #ccc;
+  color: #222;
+}
+
 .button,
 .button[href],
 .lot\:pager > span > a {
   background: #666;
-  color: #fff;
+  color: #eee;
 }
 
 .button:focus,
@@ -30,14 +35,14 @@ a[href]:active {
 .lot\:pager > span > a:focus,
 .lot\:pager > span > a:hover {
   background: #777;
-  color: #fff;
+  color: #eee;
 }
 
 .button:active,
 .button[href]:active,
 .lot\:pager > span > a:active {
   background: #555;
-  color: #fff;
+  color: #eee;
 }
 
 .input,
