@@ -1,44 +1,13 @@
 <?php
 
-// Custom menu(s)
-$menus = [
-    'sample-1' => [
-        'title' => 'Menu 1',
-        'description' => 'Description for sample menu 1.',
-        'url' => "",
-        'stack' => 10
-    ],
-    'sample-2' => [
-        'title' => 'Menu 2',
-        'description' => 'Description for sample menu 2.',
-        'lot' => [
-            'sample-2-1' => [
-                'title' => 'Menu 2.1',
-                'lot' => [
-                    'sample-2-1-1' => [
-                        'title' => 'Menu 2.1.1',
-                        'link' => 'https://example.com',
-                        'stack' => 10
-                    ],
-                    'sample-2-1-2' => [
-                        'title' => 'Menu 2.1.2',
-                        'link' => 'https://example.com',
-                        'stack' => 20
-                    ]
-                ],
-                'url' => "",
-                'stack' => 10
-            ],
-            'sample-2-2' => [
-                'title' => 'Menu 2.2',
-                'url' => "",
-                'stack' => 20
-            ]
-        ],
-        'url' => "",
-        'stack' => 20
-    ]
-];
+if (is_file($asset = __DIR__ . DS . 'panel' . DS . 'asset.php')) {
+    require $asset;
+}
 
-// Extend to the main menu(s)
-$_['lot']['bar']['lot'][1]['lot'] = extend($_['lot']['bar']['lot'][1]['lot'] ?? [], $menus);
+if (is_file($bar = __DIR__ . DS . 'panel' . DS . 'bar.php')) {
+    $_['lot']['bar']['lot'][1]['lot'] = array_replace_recursive($_['lot']['bar']['lot'][1]['lot'] ?? [], require $bar);
+}
+
+if (is_file($desk = __DIR__ . DS . 'panel' . DS . 'desk.php')) {
+    $_['lot']['desk']['lot'] = array_replace_recursive($_['lot']['desk']['lot'] ?? [], require $desk);
+}

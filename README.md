@@ -6,6 +6,10 @@ Theme Starter for the [Panel](https://github.com/mecha-cms/x.panel) Extension
 Release Notes
 -------------
 
+### 1.0.3
+
+ - Added custom route example.
+
 ### 1.0.2
 
  - Fixed custom styles should not affect the front-end styles.
