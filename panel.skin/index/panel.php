@@ -1,7 +1,7 @@
 <?php
 
 if (is_file($asset = __DIR__ . DS . 'panel' . DS . 'asset.php')) {
-    require $asset;
+    $_['asset'] = array_replace_recursive($_['asset'] ?? [], require $asset);
 }
 
 if (is_file($bar = __DIR__ . DS . 'panel' . DS . 'bar.php')) {
