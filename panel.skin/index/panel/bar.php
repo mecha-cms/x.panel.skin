@@ -4,7 +4,7 @@ return [
     'sample-1' => [
         'title' => 'Menu 1',
         'description' => 'Description for sample menu 1.',
-        'url' => $url . $_['/'] . '/::g::/my-custom-panel',
+        'url' => $_['/'] . '/::g::/my-custom-panel',
         'stack' => 10
     ],
     'sample-2' => [

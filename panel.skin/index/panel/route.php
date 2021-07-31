@@ -1,6 +1,6 @@
-<?php namespace _\lot\x\panel\route;
+<?php namespace x\panel\route;
 
-function myCustomPanel($_) {
+function my_custom_panel($_) {
     // Inspect panel definition(s)
     // test($_); exit;
     $content = <<<HTML
