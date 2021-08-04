@@ -1,8 +1,12 @@
-Skin Starter for [Panel](https://github.com/mecha-cms/x.panel)
-==============================================================
+Skin Starter for Mechaa&rsquo;s [Panel](https://github.com/mecha-cms/x.panel)
+=============================================================================
 
 Release Notes
 -------------
+
+### 1.2.0
+
+ - Updated for Panel 2.7.0.
 
 ### 1.1.0
 
