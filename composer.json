@@ -1,0 +1,8 @@
+{
+  "description": "Skin feature for panel.",
+  "license": "GPL-3.0-or-later",
+  "name": "mecha-cms/x.panel.skin",
+  "require": {
+    "mecha-cms/x.panel": "^3.0.0"
+  }
+}
