@@ -1,5 +1,5 @@
 {
-  "description": "Skin feature for panel.",
+  "description": "Skin feature for control panel.",
   "license": "GPL-3.0-or-later",
   "name": "mecha-cms/x.panel.skin",
   "require": {
