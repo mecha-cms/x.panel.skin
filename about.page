@@ -7,9 +7,6 @@ image: /lot/x/panel.skin/index.png
 author: Taufik Nurrohman
 type: Markdown
 version: 2.0.0
-
-use:
-  '.\lot\x\panel': 1
 ...
 
 This extension is required by the control panel to activate the skin selector field on the state page.
